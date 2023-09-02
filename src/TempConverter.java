@@ -12,12 +12,12 @@ public class TempConverter {
             ConvertK(Kelvin);
         }
         else if (Type.equals("C")){
-            System.out.println("Enter the Celsius you wish to convert to F and C ");
+            System.out.println("Enter the Celsius you wish to convert to F and K ");
             double Celsius = sc.nextDouble();
             ConvertC(Celsius);
         }
         else if (Type.equals("F")){
-            System.out.println("Enter the Fahrenheit you wish to convert to F and C ");
+            System.out.println("Enter the Fahrenheit you wish to convert to C and K ");
             double Fahrenheit = sc.nextDouble();
             ConvertF(Fahrenheit);
         }
