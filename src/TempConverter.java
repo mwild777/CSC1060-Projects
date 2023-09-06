@@ -31,7 +31,6 @@ public class TempConverter {
             // send to fahrenheit converter
             ConvertF(Fahrenheit);
         }
-        else Type = SysIn();
     }
     public static String SysIn() {
         //create scanner
