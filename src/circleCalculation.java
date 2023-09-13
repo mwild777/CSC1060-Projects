@@ -1,7 +1,7 @@
 //import Scanner
 import java.util.Scanner;
 public class circleCalculation {
-    public static void main(String[] args){
+    public static void main(String[] args) {
         //create Scanner as sc
         Scanner sc = new Scanner(System.in);
         // ask for the radius of the circle
@@ -19,7 +19,7 @@ public class circleCalculation {
         //calculate area
         areaCalculator(radius);
     }
-    public static void diameterCalculator(double radius){
+    public static void diameterCalculator(double radius) {
         //set diameter as a double
         double diameter;
         //calculate diameter
@@ -27,7 +27,7 @@ public class circleCalculation {
         //print results
         System.out.println("The diameter is " + diameter + ".");
     }
-    public static void circumferenceCalculator(double radius){
+    public static void circumferenceCalculator(double radius) {
         //set circumference as a double
         double circumference;
         //calculate circumference
@@ -35,7 +35,7 @@ public class circleCalculation {
         //print results
         System.out.println("The circumference is " + circumference + ".");
     }
-    public static void areaCalculator(double radius){
+    public static void areaCalculator(double radius) {
         // set area as a double
         double area;
         //calculate the area
