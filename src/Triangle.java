@@ -7,11 +7,11 @@ public class Triangle {
         // create boolean as false
         boolean check = false;
         // create int for size
-        int outerSize = 51;
+        int outerSize = 0;
         // initialize while loop
         while (!check) {
             //create int size
-            int size = 51;
+            int size;
             // ask for size
             System.out.println("Enter size");
             // set variable size
