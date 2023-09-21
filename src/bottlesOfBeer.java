@@ -24,6 +24,12 @@ public class bottlesOfBeer {
                 System.out.println(i + " bottle of beer on the wall, " + i + " bottle of beer.");
                 System.out.println("Take one down and pass it around, " + s + " bottles of beer on the wall.");
             }
+            // 2 bottle if check
+            else if (i == 2) {
+                // change grammar so it is not plural for one bottle
+                System.out.println(i + " bottles of beer on the wall, " + i + " bottles of beer.");
+                System.out.println("Take one down and pass it around, " + s + " bottle of beer on the wall.");
+            }
             // every loop before 1
             else {
                 // main print for song.
