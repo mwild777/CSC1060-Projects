@@ -12,7 +12,7 @@ public class StringWorkshop {
         int choice = 0;
         //create loop for project
         while (choice != 7) {
-            //print surrent string and give options
+            //print current string and give options
             System.out.println("Current string: " + string);
             System.out.println();
             System.out.println("Pick an option:");
@@ -20,7 +20,7 @@ public class StringWorkshop {
             System.out.println("2. check if string contains");
             System.out.println("3. Output length");
             System.out.println("4. Output substring after prefix");
-            System.out.println("5. Output substring after suffix");
+            System.out.println("5. Output substring before suffix");
             System.out.println("6. Output substring between prefix and suffix");
             System.out.println("7. Exit ");
             System.out.println();
