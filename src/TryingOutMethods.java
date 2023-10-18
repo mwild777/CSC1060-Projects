@@ -1,6 +1,6 @@
 public class TryingOutMethods {
     private double currentBlenderCupSize = 2.0;
-    public Blender() {}
+    //public Blender() {}
     public void changeBlenderCupSize(double newCupSize) {
         this.currentBlenderCupSize = newCupSize;
     }
